@@ -62,12 +62,9 @@ $user		= $action['message']['from']['id'];
 $text = strtolower($text);
 $AnswerText	= '';
 
-if ($user=='106129214')
+if ($user=='ME')
 {
-	//if (substr($text,0,6)=='/help ') $AnswerText	= file_get_contents('http://95.165.139.53/rover.php?cmd='.substr($text,5));
-	//if (substr($text,0,5)=='/cmd ') $AnswerText	= file_get_contents('http://95.165.139.53/rover.php?cmd='.substr($text,5));
-	//$AnswerText=substr($text,5);
-	file_get_contents('http://YOUR_BOT_IP/rover.php?cmd='.str_replace("\n",":",$text));
+	$AnswerText=file_get_contents('http://YOUR_BOT_IP/rover.php?cmd='.str_replace("\n",":",$text));
 }
 else $AnswerText='You are not authorized to use this bot';
 
