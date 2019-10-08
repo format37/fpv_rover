@@ -9,31 +9,31 @@
 * [Autorun script install procedure](#autorun-script-install-procedure)
 * [Access from web](#access-from-web)
 
-## Components:
+## Components
 * raspberry pi
 * L298N
 * 3d printed tank with components from https://hackaday.io/project/164896-rc-fpv-tank-rover
 
-## Rover-A files:
+## Rover-A files
 * /var/www/html/rover.php - public script
 * /var/www/html/rover.py - rover script
 * /var/www/html/led.py - night vision led script
 * /var/www/html/led_cmd.txt - night vision led key
 * /lib/systemd/system/rover_led.service - autorun script
 
-## Server-B files:
+## Server-B files
 * rover.php
 
 ```
 Due to government blocking of Telegram, I had to add an intermediate Server-C.
 ```
 
-## Server-C files:
+## Server-C files
 * rover_bot.php - bot script, called from telegram
 * relayPhotoViaPut_rover.php - photo script, called from rover
 * relayPhoto.php - photo script, called from relayPhotoViaPut_rover.php
 
-## Autorun script install procedure:
+## Autorun script install procedure
 ```
 sudo nano /lib/systemd/system/rover_led.service #add text from file
 sudo systemctl daemon-reload
