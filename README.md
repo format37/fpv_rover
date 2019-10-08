@@ -23,7 +23,7 @@
 * /lib/systemd/system/rover_led.service - autorun script
 
 ## Server-B files
-* rover.php
+* /var/www/html/rover.php
 
 ```
 Due to government blocking of Telegram, I had to add an intermediate Server-C.
