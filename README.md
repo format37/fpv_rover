@@ -10,9 +10,10 @@
 * [Access from web](#access-from-web)
 
 ## Components
-* raspberry pi
+* Raspberry pi zero w
 * L298N
 * 3d printed tank with components from https://hackaday.io/project/164896-rc-fpv-tank-rover
+* 3d printed part modifications: https://www.thingiverse.com/thing:3781188
 
 ## Rover-A files
 * /var/www/html/rover.php - public script
