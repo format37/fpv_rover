@@ -25,11 +25,10 @@
 ## Server-B files
 * /var/www/html/rover.php
 
+## Server-C files
 ```
 Due to government blocking of Telegram, I had to add an intermediate Server-C.
 ```
-
-## Server-C files
 * rover_bot.php - bot script, called from telegram
 * relayPhotoViaPut_rover.php - photo script, called from rover
 * relayPhoto.php - photo script, called from relayPhotoViaPut_rover.php
