@@ -1,4 +1,4 @@
-## fpv_rover
+## FPV rover
 3d printed first person view rover, controlled by Telegram messenger
 
 ## Table of contents
