@@ -1,7 +1,13 @@
-### fpv_rover
+## fpv_rover
+3d printed first person view rover, controlled by Telegram messenger
 
 ## Table of contents
 * [Components](#components)
+* [Rover-A files](#rover-a-files)
+* [Server-B files](#server-b-files)
+* [Server-C files](#server-c-files)
+* [Autorun script install procedure](#autorun-script-install-procedure)
+* [Access from web](#access-from-web)
 
 ## Components:
 * raspberry pi
@@ -19,7 +25,7 @@
 * rover.php
 
 ```
-Due to government blocking of Telegram, I had to add an intermediate server.
+Due to government blocking of Telegram, I had to add an intermediate Server-C.
 ```
 
 ## Server-C files:
@@ -27,7 +33,7 @@ Due to government blocking of Telegram, I had to add an intermediate server.
 * relayPhotoViaPut_rover.php - photo script, called from rover
 * relayPhoto.php - photo script, called from relayPhotoViaPut_rover.php
 
-## autorun script install procedure:
+## Autorun script install procedure:
 ```
 sudo nano /lib/systemd/system/rover_led.service #add text from file
 sudo systemctl daemon-reload
@@ -36,7 +42,7 @@ sudo systemctl start  rover_led.service
 sudo systemctl status rover_led.service #check
 ```
 
-## access from web
+## Access from web
 * Rover-A connected to Wi-fi-router-A
 * Wi-fi-router-A connected to internet via USB-modem
 * Rover-A automatically connected to Server-B-vpn at system start
