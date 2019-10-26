@@ -20,6 +20,10 @@
 * /var/www/html/rover.py - rover script
 * /var/www/html/led.py - night vision led script
 * /var/www/html/led_cmd.txt - night vision led key
+* /var/www/html/job.txt - single thread lock
+* /var/www/html/photo_cron.py - crontab photo send script
+* /var/www/html/v_log_seldom.py - crontab voltage log script
+* /var/www/html/v_log_seldom.txt - crontab voltage log data
 * /lib/systemd/system/rover_led.service - autorun script
 
 ## Server-B files
