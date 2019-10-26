@@ -10,8 +10,11 @@
 * [Access from web](#access-from-web)
 
 ## Components
-* Raspberry pi zero w
-* L298N
+* 1x Raspberry pi zero w
+* 1x L298N
+* 1x INA219 (CJMCU-219) voltage sensor
+* 2x 12V 100RPM geared motors
+* 4x 5x11x5mm Ball Bearings 685ZZ
 * 3d printed tank with components from https://hackaday.io/project/164896-rc-fpv-tank-rover
 * 3d printed part modifications: https://www.thingiverse.com/thing:3781188
 
